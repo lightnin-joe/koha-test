@@ -55,7 +55,7 @@ sub new {
     return $self;
 }
 
-## The existance of a 'report' subroutine means the plugin is capable
+## The existance of a 'report' subroutine mean the plugin is capable
 ## of running a report. This example report can output a list of patrons
 ## either as HTML or as a CSV file. Technically, you could put all your code
 ## in the report method, but that would be a really poor way to write code
